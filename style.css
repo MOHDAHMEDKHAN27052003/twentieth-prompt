@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 1.5vw;
+    align-items: center;
+}
+
+header #logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+header #logo i{
+    color: goldenrod;
+    font-size: x-large;
+}
+
+header #logo h3{
+    font-weight: bolder;
+}
+
+header nav{
+    display: flex;
+    gap: 3vw;
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+main{
+    display: flex;
+    gap: 1.7vw;
+    margin: 0 25px;
+}
+
+main #left{
+    background-color:antiquewhite;
+    border-radius: 30px;
+    width: 60%;
+}
+
+#main-content, #button-and-icons{
+    padding-left: 6%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-right: 0;
+    width: 81.5%;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+#main-content h1{
+    font-size: 325%;
+    font-weight: 600;
+}
+
+#main-content p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+main #button-and-icons{
+    padding-top: 20%;
+    padding-left: 6%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+main #social-icons{
+    display: flex;
+    gap: 1.5vw;
+}
+
+main button{
+    padding: 3% 6%;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+main i{
+    font-size: 1.7rem;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+main img{
+    width: 45%;
+    border-radius: 30px;
+}
+
+section{
+    padding: 3vh 1.5vw;
+    display: flex;
+    gap: 1.7vw;
+}
+
+.section-one{
+    width: 50%;
+    padding-top: 5px;
+}
+
+.section-one .project-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+    background-color:aqua;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.section-one h1{
+    color: white;
+    padding-bottom: 5px;
+}
+
+.section-one p{
+    color: grey;
+}
+
+.section-one i{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 3%;
+    background-color: white;
+    border: none;
+    font-size: 150%;
+}
+
+.section-one img{
+    width: 100%;
+}

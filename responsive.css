@@ -1,0 +1,61 @@
+  /* Media Queries */
+  @media only screen and (max-width: 1200px) {
+    /* Styles for screens smaller than 1200px */
+    main{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    main img{
+      padding-top: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    /* Styles for screens smaller than 992px */
+    main #left{
+      flex: 0 0 75%;
+    }
+
+    main img{
+      flex: 0 0 50%;
+      padding-top: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
+  }
+  
+  @media only screen and (max-width: 576px) {
+    /* Styles for screens smaller than 576px */
+    html { font-size: 8px; }
+
+    main #left{
+      flex: 0 0 75%;
+    }
+
+    main img{
+      flex: 0 0 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Styles for screens smaller than 480px */
+    main #left{
+      flex: 0 0 100%;
+    }
+
+    main img{
+      flex: 0 0 75%;
+    }
+  }
+  
+  @media only screen and (max-width: 360px) {
+    /* Styles for screens smaller than 360px */
+  }
+  
+  @media only screen and (max-width: 320px) {
+    /* Styles for screens smaller than 320px */
+  }
+  
